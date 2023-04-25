@@ -1,0 +1,51 @@
+-- punto nro 2
+/*create database qatar2022*/
+  
+/*create table empleados 
+(idE int not null auto_increment, 
+dniE varchar(12) not null, 
+nomE varchar(25) not null, 
+apeE varchar(25) not null, 
+nacE char(20), 
+dpto char(15), 
+primary key (idE));
+create table departamentos 
+(idD int not null auto_increment,
+nomD varchar(15) not null,
+descD varchar(30),
+presupuesto decimal(12.2), 
+primary key(idD));*/
+
+-- punto nro 4
+/*insert into empleados (idE, dniE, nomE, apeE, nacE, dpto) 
+values (ide, "26638449", "Nélida", "Hernández", "Argentina", "Logística"),
+		(ide, "29224092", "Juan", "Hernandez", "Argentina", "Sistemas"),
+		(ide, "27465206", "Pedro", "Gonzalez", "Perú", "Sistemas"),
+		(ide, "33224006", "Milagros", "Dominguez", "Chile", "Logística"),
+		(ide, "00000001", "Lucía", "Perez", "Bolivia", "Logística"),
+		(ide, "00000002", "Pablo", "Gomez", "", "Logística");
+insert into departamentos (idD, nomD, descD, presupuesto) 
+values (idD, "Logística", "Dpto logística y rutas",15000000),
+		(idD, "Sistemas", "Dpto sistemas, redes y campus",10000000),
+		(idD, "Compras", "Dpto compras, suministros, mat",9000000);*/
+        
+-- punto nro 5
+/*update empleados
+set dniE="12345678", nomE="Luisito", apeE="Comunica"
+where idE=3;
+update empleados
+set dniE="87654321", nomE="Axl", apeE="Rose", nacE="Estados Unidos", dpto="Logística"
+where idE=7;*/
+
+-- punto nro 6
+/*delete from departamentos
+where idD=3;*/
+
+-- punto nro 7
+/*select * from empleados
+where dpto ="Logística";*/
+
+-- punto 8
+/*select idD, nomD, presupuesto
+from departamentos
+order by nomD asc; */
