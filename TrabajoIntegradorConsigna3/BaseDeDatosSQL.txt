@@ -1,0 +1,64 @@
+/*create table productos 
+(
+idP int not null auto_increment, 
+nomP varchar(50) not null, 
+descP varchar(50) not null, 
+precioP decimal(14,2) not null,
+stockP int not null,
+primary key (idP)
+);
+*/
+
+/*insert into productos (idP,nomP,descP,precioP,stockP) values
+(idP, "Dulce de leche", "Repostero x 500grs.", 450.30, 1000),
+(idP, "Leche", "En polvo x 500grs.", 200, 1000),
+(idP, "Pan", "Casero x 500grs.", 150.30, 500),
+(idP, "Café", "Frasco x 500grs.", 450.30, 1000),
+(idP, "Capuccino", "Paquete x 500grs.", 500.50, 1000),
+(idP, "Fideos", "Paquete x 1kg.", 300, 1000),
+(idP, "Arroz", "Paquete x 1kg.", 299.99, 1000),
+(idP, "Gaseosa Cola", "Botella x 2Lts.", 900.50, 1000);
+*/
+
+/*
+create table clientes 
+(
+idC int not null auto_increment, 
+cuilC long not null,
+nomC varchar(50) not null, 
+direC varchar(50) default null,
+primary key (idC)
+);
+
+insert into clientes (idC, cuilC, nomC, direC) values 
+(idC, 20394240967, "Axel Medina", "Miguel C.Corro 30"),	
+(idC, 20123456783, "Juan Rios", "Bv. Córdoba 100"),
+(idC, 27123456782, "Lucía González", "Marcelo T.de Alvear 10"),
+(idC, 20402123561, "José González", "Mendoza 946");
+*/
+
+/*
+create table carrito 
+(
+idCA int not null auto_increment, 
+idC int not null,
+montoCA decimal(14,2) not null,
+montoDesCA decimal(14,2) not null, 
+fechaCA date not null,
+primary key (idCA),
+foreign key (idC) references clientes (idC)
+);
+*/
+
+/*
+-- reponer producto 1
+update productos
+set stockP=500
+where idP=1;
+*/
+/*
+-- reponer producto 2
+update productos
+set stockP=500
+where idP=2;
+*/
