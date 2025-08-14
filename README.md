@@ -13,7 +13,7 @@ El objetivo principal es practicar conceptos fundamentales del lenguaje y aplica
 
 ### Ejercicios extra: retos y prácticas adicionales.
 
-## Notas
+## Notas 
 
 + Este repositorio es únicamente con fines educativos.
 
